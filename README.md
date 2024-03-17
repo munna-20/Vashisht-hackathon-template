@@ -5,7 +5,7 @@
    <br>
 </h1>
 
-#  [`Demo video link `](https://drive.google.com/file/d/16WSrjgoKdTrWm2cS3RMyrksaH-GwuX6S/view?usp=drivesdk))  
+#  [`Demo video link `](https://drive.google.com/file/d/16WSrjgoKdTrWm2cS3RMyrksaH-GwuX6S/view?usp=drivesdk)  
 IMPLEMENTATION OF NON-PERSISTENT CSMA/CD PROTOCOL WITH BACK-OFF ALGORITHM it is used to in Ethernet to schedule re-transmissions after collisions. If a collision takes place between 2 stations, they may restart transmission as soon as they can after the collision. This will always lead to another collision and form an infinite loop of collisions leading to a deadlock. To prevent such scenario back-off algorithm is used.
 ## Team Details
 `Team number` :  VH20
