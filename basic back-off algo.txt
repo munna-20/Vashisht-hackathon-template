@@ -1,0 +1,5 @@
+Waiting time = back–off time
+Let n = collision number or re-transmission serial number. 
+Then, 
+Waiting time = K * Tslot
+where K = [0, 2n – 1 ]  
