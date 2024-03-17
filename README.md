@@ -1,56 +1,52 @@
 <h1 align="center" style="border-bottom: none">
     <b>
-        <a href="https://www.google.com"> Title of the project </a><br>
+        <a href="https://www.google.com"> IMPLEMENTATION OF NON-PERSISTENT CSMA/CD PROTOCOL WITH 
+BACK-OFF ALGORITHM </a><br>
     </b>
-    ⭐️This is a sample tag line  ⭐️ <br>
+     <br>
 </h1>
 
-# [`Website link`](http://www.google.com)  [`Demo video link `](http://www.google.com) [`Other links `](http://www.google.com) 
-mention the description here , mention what does your prototype does  , make sure that demo video also has narration made by the team members and shows the entire walkthrough of the project , for hardware projects , images , working video and code are required
+# [`Demo video link `](http://www.google.com) 
+IMPLEMENTATION OF NON-PERSISTENT CSMA/CD PROTOCOL WITH 
+BACK-OFF ALGORITHM it is used to in Ethernet to schedule re-transmissions after collisions. If a collision takes place between 2 stations, they may restart transmission as soon as they can after the collision. This will always lead to another collision and form an infinite loop of collisions leading to a deadlock. To prevent such scenario back-off algorithm is used.
 ## Team Details
-`Team number` : VH000
+`Team number` : VH20
 
 | Name    | Email           |
 |---------|-----------------|
-| person1 | person1@gmail.com |
-| person2 | person2@gmail.com |
-| person3 | person3@gmail.com |
+| p.hari preetham | mr.haripreetham089@gmail.com |
+| k.tarak sai | saitharak2003@gmail.com |
+| d.ajay kumar | dasariajaykumar2905@gmail.com|
+| j.gnaneshwar| jaggarignaneshwar@gmail.com |
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="https://static.vecteezy.com/system/resources/previews/013/688/865/non_2x/modern-color-and-geometric-banner-design-template-on-the-background-of-the-mobile-phone-mobile-modern-poster-marketing-special-offer-promotion-smartphone-mockup-vector.jpg" alt="Image 1" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSECH9uhvdGq0EP6QqG8lzAyjz1F-6V5RyMZrjBGmoIbP5diPgG53mWePJ9RlWVbJuVWCo&usqp=CAU" alt="Image 2" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEwduQ50DEm_tr94tfGWHqAYzzvjb_5oS6ULmejCN2pBlolGfTv8wTwaa64fnt1GThiDc" alt="Image 3" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEwduQ50DEm_tr94tfGWHqAYzzvjb_5oS6ULmejCN2pBlolGfTv8wTwaa64fnt1GThiDc" alt="Image 3" style="width: 30%; margin: 5px;">
-       <img src="https://static.vecteezy.com/system/resources/previews/013/688/865/non_2x/modern-color-and-geometric-banner-design-template-on-the-background-of-the-mobile-phone-mobile-modern-poster-marketing-special-offer-promotion-smartphone-mockup-vector.jpg" alt="Image 1" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSECH9uhvdGq0EP6QqG8lzAyjz1F-6V5RyMZrjBGmoIbP5diPgG53mWePJ9RlWVbJuVWCo&usqp=CAU" alt="Image 2" style="width: 30%; margin: 5px;">
-</div>
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/qw-1.png" alt="Image 1" style="width: 30%; margin: 5px;">
 
 ## Problem statement 
-mention the problem , and mention the severity of the problem and why we need solution for that  , mention which gorup of people face that problem
+collision occurenece between two stations while communicating , whenever telecommunication traffic increases collision occurs which means change of destination or colliding with other destination or transmitting signal to a non-designated receiver, this is faced by every member who uses a telephone for communication purpose
 ## About the project
-mention few details and features of the project , how it is solving the problem 
+To overcome from this problem we are using a media access control(MAC) protocol which is used in local area networking (csma/cd) it is a modification to "pure carrier-sense multiple access(CSMA) by using some algorithms
 
 ## Technical implemntaion 
-mention the approach and how you have solved the problem with the technology , utilize multiple flowcharts to explain your solutions and approach
-- use bullets to explain
-- be consise and specific
-- explain with images and flowcharts
-- 
-![flowchart](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5X9E8h0kftXOW2B9jORBskdXF12pFKOX_Q&usqp=CAU)
+To overcome and to update the csma we used the csma/cd in mac protocol 
+- Back-Off Algorithm
+- non-persistent CSMA
+
+![download](https://github.com/gdsc-iiitdm-kancheepuram/Vashisht-hackathon-template/assets/126803811/6931391d-9ffb-4765-87ff-e9f03d57ab6e)
+![download](https://github.com/gdsc-iiitdm-kancheepuram/Vashisht-hackathon-template/assets/126803811/6a0830a2-4350-4f11-992a-259ff899eeac)
+
 
 ## Techstacks used 
-`nodejs` , `react` , `ml` , `tech stack 1` , `tech stack 2`
+`python` , `libraries` , `random(lib)` 
 
 ## How to run locally 
-explain detailed steps to run your project locally , example to run a react application 
-- step 1 : clone the repo 
-```
-npm install
-npm start
-```
+steps to run the repository
+- step 1 : download/clone the repository
+- step 2 : copy the code
+- step 3 : run in Python - IDLE or pycharm locally in ur device
 
 # What's next ?
-tell the future plan that you have for the project , tell the updates that you would wish to bring
+we can make it more reliable by making it reaching it destination without any colllisions and not retransmitting again if collosion occurs
 
 ## Declaration
 We confirm that the project showcased here was either developed entirely during the hackathon or underwent significant updates within the hackathon timeframe. We understand that if any plagiarism from online sources is detected, our project will be disqualified, and our participation in the hackathon will be revoked.
