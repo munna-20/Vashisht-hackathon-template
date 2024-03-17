@@ -1,0 +1,18 @@
+Example – Case-1 : Suppose 2 stations A and B start transmitting data (Packet 1) at the same time then, collision occurs. So, the collision number n for both their data (Packet 1) = 1. Now, both the station randomly pick an integer from the set K i.e. {0, 1}.
+
+When both A and B choose K = 0 –> Waiting time for A = 0 * Tslot = 0 Waiting time for B = 0 * Tslot = 0 Therefore, both stations will transmit at the same time and hence collision occurs.
+When A chooses K = 0 and B chooses K = 1 –> Waiting time for A = 0 * Tslot = 0 Waiting time for B = 1 * Tslot = Tslot Therefore, A transmits the packet and B waits for time Tslot for transmitting and hence A wins.
+When A chooses K = 1 and B chooses K = 0 –> Waiting time for A = 1 * Tslot = Tslot Waiting time for B = 0 * Tslot = 0 Therefore, B transmits the packet and A waits for time Tslot for transmitting and hence B wins.
+When both A and B choose K = 1 –> Waiting time for A = 1 * Tslot = Tslot Waiting time for B = 1 * Tslot = Tslot Therefore, both will wait for the same time Tslot and then transmit. Hence, a collision occurs.
+Probability that A wins = 1/4
+Probability that B wins = 1/4
+Probability of collision  = 2/4
+
+Case-2: Assume that A wins in Case 1 and transmitted its data(Packet 1). Now, as soon as B transmits its packet 1, A transmits its packet 2. Hence, collision occurs. Now collision no. n becomes 1 for packet 2 of A and becomes 2 for packet 1 of B. For packet 2 of A, K = {0, 1} For packet 1 of B, K = {0, 1, 2, 3} 
+
+
+
+Probability that A wins = 5/8
+Probability that B wins = 1/8
+Probability of collision  = 2/8
+So, the probability of collision decreases as compared to Case 1. 
